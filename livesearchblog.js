@@ -1,4 +1,3 @@
-/*! AJAX Search Widget for Blogger V2 <https://dte-project.github.io/blogger/search.html> */ 
 ! function(e, t) {
     function r(e, t) {
         function r(e) {
@@ -229,14 +228,14 @@ function(e, t) {
             image: 0,
             target: 0,
             chunk: 50,
-			idblg: 0,
+	    idblg: 0,
             text: {
-                title: "Search results for query <em>%s%</em>",
+                title: "Search results for <em>%s%</em>",
                 loading: "Searching&hellip;",
                 previous: "Previous",
                 next: "Next",
-                empty: "No results for query <em>%s%</em>.",
-                end: "No more results for query <em>%s%</em>."
+                empty: "No results for <em>%s%</em>.",
+                end: "No more results for <em>%s%</em>."
             },
             query: {
                 alt: "json",
